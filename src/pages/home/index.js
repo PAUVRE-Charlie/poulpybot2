@@ -1,5 +1,5 @@
 /* React imports */
-import React from 'react';
+import React, { useEffect } from 'react';
 
 /* Styles imports */
 import './home.css';
@@ -14,7 +14,22 @@ import HomeBox from '../../components/homeBox';
 import colors from '../../data/colors';
 
 export default function Home() {
-	console.log(articles);
+	useEffect(() => {
+		/* This function make each HomeBox appear fading from below : the class names are in homeBox.css */
+		let intersectionObserver = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					setTimeout(function() {
+						entry.target.classList.add('fadeAndMoveFromBelow');
+					}, 50);
+					intersectionObserver.unobserve(entry.target);
+				}
+			});
+		});
+		document.querySelectorAll('.boxContainer').forEach((obj) => {
+			intersectionObserver.observe(obj);
+		});
+	}, []);
 
 	return (
 		<div id="homeCategory">

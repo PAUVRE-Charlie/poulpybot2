@@ -1,5 +1,5 @@
 /* React imports */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 /* Styles imports */
@@ -14,6 +14,20 @@ import articles from '../../data/articles';
 import ArticleCard from '../../components/articleCard';
 
 export default function Articles({ match }) {
+	useEffect(
+		() => {
+			/* This function make each card container appear fading from below : the class names are in homeBox.css */
+			let timer = 0;
+			document.querySelectorAll('.articleCardContainer').forEach((obj) => {
+				timer += 50;
+				setTimeout(function() {
+					obj.classList.add('fadeAndMoveFromBelow');
+				}, timer);
+			});
+		},
+		[ match ]
+	);
+
 	return (
 		<div
 			className="articlesContainer"

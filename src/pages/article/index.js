@@ -14,6 +14,22 @@ export default function Article({ match }) {
 	useEffect(
 		() => {
 			setArticle(articles.find((article) => article.id === match.params.id));
+			/* This function make each containers of these classes appear fading from below : the class names are in homeBox.css */
+			document.querySelectorAll('.articleTitle').forEach((obj) => {
+				setTimeout(function() {
+					obj.classList.add('fadeAndMoveFromBelow');
+				}, 400);
+			});
+			document.querySelectorAll('.articleSubtitle').forEach((obj) => {
+				setTimeout(function() {
+					obj.classList.add('fadeAndMoveFromBelow');
+				}, 200);
+			});
+			document.querySelectorAll('.articleBody').forEach((obj) => {
+				setTimeout(function() {
+					obj.classList.add('fadeAndMoveFromBelow');
+				}, 50);
+			});
 		},
 		[ match ]
 	);
@@ -23,19 +39,19 @@ export default function Article({ match }) {
 
 	return (
 		article && (
-			<div id="articleContainer">
+			<div className="articleContainer">
 				{/* the title section of the article */}
-				<div id="articleTitleSection">
-					<p id="articleTitle" style={{ color: colors.white }}>
+				<div className="articleTitleSection">
+					<p className="articleTitle" style={{ color: colors.white }}>
 						{article.title}
 					</p>
-					<p id="articleSubtitle" style={{ color: colors.secondary }}>
+					<p className="articleSubtitle" style={{ color: colors.secondary }}>
 						{article.author}
 					</p>
 				</div>
 
 				{/* the body of the article */}
-				<div id="articleBody" style={{ background: colors.whiteOpacity70, color: colors.black }}>
+				<div className="articleBody" style={{ background: colors.whiteOpacity70, color: colors.black }}>
 					{article.body}
 				</div>
 			</div>

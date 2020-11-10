@@ -1,10 +1,10 @@
 /* the page that displays a single article */
-#articleContainer {
+.articleContainer {
 	margin: 5rem 0;
 }
 
 /* the container that displays the main data of the article */
-#articleTitleSection {
+.articleTitleSection {
 	height: 10vw;
 	width: 100%;
 	display: flex;
@@ -15,21 +15,36 @@
 }
 
 /* the title, inside the articleContainer */
-#articleTitle {
+.articleTitle {
 	font-size: 5vw;
 	letter-spacing: -0.4vw;
 	margin-bottom: 1vw;
 	font-weight: bold;
 	margin: 0;
+	transition: all ease 1s;
+	transform: translateY(-200px);
+	opacity: 0;
 }
 
 /* the subtitle, inside the articleContainer */
-#articleSubtitle {
+.articleSubtitle {
 	font-size: 2vh;
+	transition: all ease 1s;
+	transform: translateY(-200px);
+	opacity: 0;
 }
 
 /* the body of the article */
-#articleBody {
+.articleBody {
 	text-align: justify;
 	padding: 8vw;
+	transition: all ease 1s;
+	transform: translateY(-200px);
+	opacity: 0;
+}
+
+/* this class is used to animate the container when it appears on the screen */
+.fadeAndMoveFromBelow {
+	transform: translateY(0);
+	opacity: 1;
 }

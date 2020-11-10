@@ -5,6 +5,15 @@
 	height: 35vw;
 	max-height: 500px;
 	margin: 5rem 0;
+	transition: transform ease 1s;
+	transform: translateY(200px);
+	opacity: 0;
+}
+
+/* this class is used to animate the box container when it appears on the screen */
+.fadeAndMoveFromBelow {
+	transform: translateY(0);
+	opacity: 1;
 }
 
 /* the background image of the box */
