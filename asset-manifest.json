@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/poulpybot2/static/css/main.2050830a.chunk.css",
-    "main.js": "/poulpybot2/static/js/main.1985985d.chunk.js",
-    "main.js.map": "/poulpybot2/static/js/main.1985985d.chunk.js.map",
+    "main.css": "/poulpybot2/static/css/main.be3adfd2.chunk.css",
+    "main.js": "/poulpybot2/static/js/main.9abc1b6b.chunk.js",
+    "main.js.map": "/poulpybot2/static/js/main.9abc1b6b.chunk.js.map",
     "runtime-main.js": "/poulpybot2/static/js/runtime-main.91972d4e.js",
     "runtime-main.js.map": "/poulpybot2/static/js/runtime-main.91972d4e.js.map",
     "static/js/2.3c7667b2.chunk.js": "/poulpybot2/static/js/2.3c7667b2.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.4371b32f.chunk.js": "/poulpybot2/static/js/3.4371b32f.chunk.js",
     "static/js/3.4371b32f.chunk.js.map": "/poulpybot2/static/js/3.4371b32f.chunk.js.map",
     "index.html": "/poulpybot2/index.html",
-    "static/css/main.2050830a.chunk.css.map": "/poulpybot2/static/css/main.2050830a.chunk.css.map",
+    "static/css/main.be3adfd2.chunk.css.map": "/poulpybot2/static/css/main.be3adfd2.chunk.css.map",
     "static/js/2.3c7667b2.chunk.js.LICENSE.txt": "/poulpybot2/static/js/2.3c7667b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.91972d4e.js",
     "static/js/2.3c7667b2.chunk.js",
-    "static/css/main.2050830a.chunk.css",
-    "static/js/main.1985985d.chunk.js"
+    "static/css/main.be3adfd2.chunk.css",
+    "static/js/main.9abc1b6b.chunk.js"
   ]
 }
