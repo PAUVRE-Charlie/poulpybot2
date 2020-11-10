@@ -1,0 +1,35 @@
+/* the article page */
+.articlesContainer {
+	margin: 5rem 0 5rem 0;
+	width: 100%;
+}
+
+/* the banner that act as a menu for the article categories */
+.articlesCategoryBanner {
+	width: calc(100% - 2vw);
+	display: flex;
+	align-items: space-around;
+	justify-content: center;
+	text-align: center;
+	margin: 2rem 1vw;
+}
+
+/* an element of the banner that contains the article categories */
+.articlesBannerItem {
+	flex: 1;
+	text-decoration: none;
+	display: grid;
+	place-items: center;
+	font-weight: bold;
+	letter-spacing: -0.2vw;
+	white-space: nowrap;
+}
+
+/* the container of all the articles of this section*/
+.articlesCardContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 5rem 0;
+}

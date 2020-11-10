@@ -1,0 +1,35 @@
+/* the page that displays a single article */
+#articleContainer {
+	margin: 5rem 0;
+}
+
+/* the container that displays the main data of the article */
+#articleTitleSection {
+	height: 10vw;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3vw;
+}
+
+/* the title, inside the articleContainer */
+#articleTitle {
+	font-size: 5vw;
+	letter-spacing: -0.4vw;
+	margin-bottom: 1vw;
+	font-weight: bold;
+	margin: 0;
+}
+
+/* the subtitle, inside the articleContainer */
+#articleSubtitle {
+	font-size: 2vh;
+}
+
+/* the body of the article */
+#articleBody {
+	text-align: justify;
+	padding: 8vw;
+}

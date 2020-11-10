@@ -1,0 +1,17 @@
+/* the link that contains the button */
+.linkOnButton {
+	text-decoration: none;
+}
+
+/* the button container */
+.buttonContainer {
+	border-radius: 3px;
+	padding: 0.4vw 4vw;
+	font-size: 1rem;
+	filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* the text indide the button */
+.buttonText {
+	text-decoration: none;
+}

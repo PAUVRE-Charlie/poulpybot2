@@ -1,0 +1,26 @@
+/* container of the whole header */
+#headerContainer {
+	position: fixed;
+	width: calc(70% - 60px);
+	display: flex;
+	flex-direction: row;
+	z-index: 101;
+	margin: 1rem 30px;
+}
+
+/* leading text */
+#headerLeadingText {
+	flex: 1;
+}
+
+/* ul of all the nav links */
+#navList {
+	list-style: none;
+	display: flex;
+}
+
+/* nav link */
+.navLink {
+	margin: 0 0 0 5vw;
+	text-decoration: none;
+}

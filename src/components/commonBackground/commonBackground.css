@@ -1,0 +1,15 @@
+/* container of the whole component */
+#containerBackground {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+/* image that cover the all screen as background */
+#backgroundImage {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	filter: brightness(80%);
+}

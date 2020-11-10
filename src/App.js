@@ -1,25 +1,44 @@
-import logo from './logo.svg';
+/* React imports */
+import { Route, BrowserRouter as Router } from 'react-router-dom'; // used to create routes between pages or components
+
+/* Styles imports */
 import './App.css';
 
+/* Data imports */
+
+/* Pages imports */
+import Home from './pages/home';
+import Articles from './pages/articles';
+import Article from './pages/article';
+
+/* Components imports */
+import CommonBackground from './components/commonBackground'; // background image, displayed on all/most pages
+import Header from './components/header';
+import Footer from './components/footer';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<Router>
+			<CommonBackground />
+
+			{/* Container for the whole app */}
+			<div id="appContainer">
+				<Header />
+				<Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/articles/:category'}
+					component={({ match }) => <Articles match={match} />}
+				/>
+				<Route
+					exact
+					path={process.env.PUBLIC_URL + '/articles/:category/:id'}
+					component={({ match }) => <Article match={match} />}
+				/>
+			</div>
+			<Footer />
+		</Router>
+	);
 }
 
 export default App;

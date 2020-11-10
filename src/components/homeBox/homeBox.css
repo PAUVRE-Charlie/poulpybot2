@@ -1,0 +1,33 @@
+/* container of an box in the home section */
+.boxContainer {
+	position: relative;
+	width: 100%;
+	height: 35vw;
+	max-height: 500px;
+	margin: 5rem 0;
+}
+
+/* the background image of the box */
+.boxImage {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(80%);
+}
+
+/* the group that contains the article category and the button (to know more) */
+.boxTitleGroup {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* the title of the box, which is the corresponding article category */
+.articleCategory {
+	font-size: 7vw;
+	letter-spacing: -0.5vw;
+}

@@ -1,0 +1,11 @@
+/* container of the home section */
+#homeSection {
+	height: 100%;
+	width: 100%;
+}
+
+/* container of the home boxes */
+#homeBoxesContainer {
+	margin: 0 0 5rem 0;
+	padding: 5vw;
+}

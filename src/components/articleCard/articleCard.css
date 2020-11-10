@@ -1,0 +1,34 @@
+/* the container of an article card */
+.articleCardContainer {
+	height: 7rem;
+	padding: 1rem;
+	margin: 0.5rem;
+	text-align: justify;
+	display: flex;
+	max-width: 30rem;
+	text-decoration: none;
+}
+
+/* the image on the left of the card */
+.articleCardContainer img {
+	width: 20%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* the container of the text on the right part of the card */
+.articleCardTextContainer {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	overflow: hidden;
+	margin-left: 0.5rem;
+}
+
+.articleCardTextContainer .title {
+	font-weight: bold;
+}
+
+.articleCardTextContainer .body {
+	font-size: 0.8rem;
+}
