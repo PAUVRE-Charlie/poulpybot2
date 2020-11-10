@@ -18,7 +18,8 @@ const icons = {
 			link: 'https://www.linkedin.com/school/imt-atlantique/'
 		}
 	],
-	logo: process.env.PUBLIC_URL + '/assets/icons/logo.svg'
+	logo: process.env.PUBLIC_URL + '/assets/icons/logo.svg',
+	arrowDown: process.env.PUBLIC_URL + '/assets/icons/arrow_down.svg'
 };
 
 export default icons;

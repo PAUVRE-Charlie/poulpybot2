@@ -24,3 +24,10 @@
 	margin: 0 0 0 5vw;
 	text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+	/* container of the whole header */
+	#headerContainer {
+		width: calc(100% - 60px);
+	}
+}

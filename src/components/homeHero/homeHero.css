@@ -10,3 +10,24 @@
 	font-size: 10vw;
 	letter-spacing: -1vw;
 }
+
+.arrowDown {
+	position: absolute;
+	bottom: 3rem;
+	left: calc(50% - 1.5rem);
+	width: 3rem;
+	height: 3rem;
+	animation: animationArrow infinite 5s;
+}
+
+@keyframes animationArrow {
+	0% {
+		transform: translateY(0) scale(1);
+	}
+	25% {
+		transform: translateY(10px) scale(0.8);
+	}
+	50% {
+		transform: translateY(0) scale(1);
+	}
+}
