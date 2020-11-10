@@ -48,3 +48,14 @@
 	transform: translateY(0);
 	opacity: 1;
 }
+
+@media screen and (max-width: 600px) {
+	/* the title, inside the articleContainer */
+	.articleTitle {
+		font-size: 2rem;
+	}
+	/* the container that displays the main data of the article */
+	.articleTitleSection {
+		height: 5rem;
+	}
+}
