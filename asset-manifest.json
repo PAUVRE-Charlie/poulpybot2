@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/poulpybot2/static/css/main.2050830a.chunk.css",
-    "main.js": "/poulpybot2/static/js/main.38b0070a.chunk.js",
-    "main.js.map": "/poulpybot2/static/js/main.38b0070a.chunk.js.map",
-    "runtime-main.js": "/poulpybot2/static/js/runtime-main.60371588.js",
-    "runtime-main.js.map": "/poulpybot2/static/js/runtime-main.60371588.js.map",
-    "static/js/2.b2c90e9a.chunk.js": "/poulpybot2/static/js/2.b2c90e9a.chunk.js",
-    "static/js/2.b2c90e9a.chunk.js.map": "/poulpybot2/static/js/2.b2c90e9a.chunk.js.map",
-    "static/js/3.282e8d5a.chunk.js": "/poulpybot2/static/js/3.282e8d5a.chunk.js",
-    "static/js/3.282e8d5a.chunk.js.map": "/poulpybot2/static/js/3.282e8d5a.chunk.js.map",
+    "main.js": "/poulpybot2/static/js/main.1985985d.chunk.js",
+    "main.js.map": "/poulpybot2/static/js/main.1985985d.chunk.js.map",
+    "runtime-main.js": "/poulpybot2/static/js/runtime-main.91972d4e.js",
+    "runtime-main.js.map": "/poulpybot2/static/js/runtime-main.91972d4e.js.map",
+    "static/js/2.3c7667b2.chunk.js": "/poulpybot2/static/js/2.3c7667b2.chunk.js",
+    "static/js/2.3c7667b2.chunk.js.map": "/poulpybot2/static/js/2.3c7667b2.chunk.js.map",
+    "static/js/3.4371b32f.chunk.js": "/poulpybot2/static/js/3.4371b32f.chunk.js",
+    "static/js/3.4371b32f.chunk.js.map": "/poulpybot2/static/js/3.4371b32f.chunk.js.map",
     "index.html": "/poulpybot2/index.html",
     "static/css/main.2050830a.chunk.css.map": "/poulpybot2/static/css/main.2050830a.chunk.css.map",
-    "static/js/2.b2c90e9a.chunk.js.LICENSE.txt": "/poulpybot2/static/js/2.b2c90e9a.chunk.js.LICENSE.txt"
+    "static/js/2.3c7667b2.chunk.js.LICENSE.txt": "/poulpybot2/static/js/2.3c7667b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.60371588.js",
-    "static/js/2.b2c90e9a.chunk.js",
+    "static/js/runtime-main.91972d4e.js",
+    "static/js/2.3c7667b2.chunk.js",
     "static/css/main.2050830a.chunk.css",
-    "static/js/main.38b0070a.chunk.js"
+    "static/js/main.1985985d.chunk.js"
   ]
 }
