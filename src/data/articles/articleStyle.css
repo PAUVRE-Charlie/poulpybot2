@@ -1,0 +1,32 @@
+/* this file defines the style base of all articles */
+
+.article {
+	position: relative;
+	width: 100%;
+	padding: 5vw 8vw 8vw 8vw;
+	margin: 0;
+}
+
+.article img {
+	width: 80%;
+	margin: 1rem 10%;
+}
+
+.article a {
+	color: #02b8df;
+	text-decoration: none;
+}
+
+.article ul {
+	list-style-type: disk;
+	list-style-position: inside;
+}
+
+.article h2 {
+	margin: 2rem 0 1rem 0;
+}
+
+.article h5 {
+	font-size: 1rem;
+	font-weight: normal;
+}

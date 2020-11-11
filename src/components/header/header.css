@@ -1,7 +1,7 @@
 /* container of the whole header */
 #headerContainer {
 	position: fixed;
-	width: calc(70% - 60px);
+	width: calc(80% - 60px);
 	display: flex;
 	flex-direction: row;
 	z-index: 101;

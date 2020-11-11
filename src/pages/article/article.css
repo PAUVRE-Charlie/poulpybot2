@@ -1,6 +1,7 @@
 /* the page that displays a single article */
 .articleContainer {
 	margin: 5rem 0;
+	width: 100%;
 }
 
 /* the container that displays the main data of the article */
@@ -16,8 +17,8 @@
 
 /* the title, inside the articleContainer */
 .articleTitle {
-	font-size: 5vw;
-	letter-spacing: -0.4vw;
+	font-size: 4vw;
+	letter-spacing: -0.3vw;
 	margin-bottom: 1vw;
 	font-weight: bold;
 	margin: 0;
@@ -28,7 +29,7 @@
 
 /* the subtitle, inside the articleContainer */
 .articleSubtitle {
-	font-size: 2vh;
+	font-size: 2.5vh;
 	transition: all ease 1s;
 	transform: translateY(-200px);
 	opacity: 0;
@@ -36,8 +37,8 @@
 
 /* the body of the article */
 .articleBody {
+	width: 100%;
 	text-align: justify;
-	padding: 8vw;
 	transition: all ease 1s;
 	transform: translateY(-200px);
 	opacity: 0;
@@ -50,12 +51,12 @@
 }
 
 @media screen and (max-width: 600px) {
-	/* the title, inside the articleContainer */
-	.articleTitle {
-		font-size: 2rem;
-	}
 	/* the container that displays the main data of the article */
 	.articleTitleSection {
 		height: 5rem;
+	}
+	/* the title, inside the articleContainer */
+	.articleTitle {
+		font-size: 2rem;
 	}
 }

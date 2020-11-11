@@ -7,8 +7,10 @@ const article = {
 	title: 'Electronique',
 	image: process.env.PUBLIC_URL + '/assets/images/electronique.svg',
 	author: 'Alexis Hamel',
+	preview:
+		'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non iaculis ex, ac luctus enim. Donec placerat augue posuere pretium malesuada. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum id mi hendrerit, placerat lectus sit amet, consectetur nibh. Duis ornare ex quam, ac dictum justo semper quis. Nullam rhoncus libero ut tempor tempus. Nunc quis venenatis orci, vitae maximus orci. Fusce a sagittis ligula. Quisque ut quam ante. Vestibulum vitae ornare sapien.<br />Integer semper imperdiet justo, quis viverra ipsum ultricies vel. Donec viverra placerat sapien, sed feugiat elit',
 	body: (
-		<div>
+		<div className="article">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non iaculis ex, ac luctus enim. Donec
 			placerat augue posuere pretium malesuada. Orci varius natoque penatibus et magnis dis parturient montes,
 			nascetur ridiculus mus. Vestibulum id mi hendrerit, placerat lectus sit amet, consectetur nibh. Duis ornare

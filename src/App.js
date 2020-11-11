@@ -1,5 +1,5 @@
 /* React imports */
-import { Route, BrowserRouter as Router } from 'react-router-dom'; // used to create routes between pages or components
+import { Route, BrowserRouter as Router, Switch, Redirect } from 'react-router-dom'; // used to create routes between pages or components
 
 /* Styles imports */
 import './App.css';
@@ -24,17 +24,20 @@ function App() {
 			{/* Container for the whole app */}
 			<div id="appContainer">
 				<Header />
-				<Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
-				<Route
-					exact
-					path={process.env.PUBLIC_URL + '/articles/:category'}
-					component={({ match }) => <Articles match={match} />}
-				/>
-				<Route
-					exact
-					path={process.env.PUBLIC_URL + '/articles/:category/:id'}
-					component={({ match }) => <Article match={match} />}
-				/>
+				<Switch>
+					<Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+					<Route
+						exact
+						path={process.env.PUBLIC_URL + '/articles/:category'}
+						component={({ match }) => <Articles match={match} />}
+					/>
+					<Route
+						exact
+						path={process.env.PUBLIC_URL + '/articles/:category/:id'}
+						component={({ match }) => <Article match={match} />}
+					/>
+					<Redirect to={process.env.PUBLIC_URL + '/'} />
+				</Switch>
 			</div>
 			<Footer />
 		</Router>

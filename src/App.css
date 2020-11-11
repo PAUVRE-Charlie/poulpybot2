@@ -1,9 +1,8 @@
 /* Container of the whole app */
 #appContainer {
-	display: grid;
-	place-items: center;
+	display: flex;
 	margin: 0 auto;
-	width: 70%;
+	width: 80%;
 }
 
 @media screen and (max-width: 600px) {

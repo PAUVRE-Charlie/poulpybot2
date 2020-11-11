@@ -6,7 +6,7 @@ const colors = {
 	primaryDark: '#D8B62B',
 	secondary: '#02B8DF',
 	secondaryOpacity70: 'rgba(2, 184, 223, 0.7)',
-	white: '#ffffff',
+	white: '#fcfcfc',
 	whiteOpacity70: 'rgba(255, 255, 255, 0.7)',
 	black: '#000000'
 };

@@ -20,9 +20,11 @@ export default function Header() {
 			{/* navigation list */}
 			<nav id="nav">
 				<ul id="navList">
+					{/* navigation link to the home page */}
 					<Link className="navLink" style={{ color: colors.primary }} to={process.env.PUBLIC_URL + '/'}>
 						{strings.header.nav_home}
 					</Link>
+					{/* navigation link to the articles page */}
 					<Link
 						className="navLink"
 						style={{ color: colors.primary }}

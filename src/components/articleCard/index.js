@@ -22,7 +22,7 @@ export default function ArticleCard({ category, article }) {
 					{article.title}
 				</p>
 				<div className="body" style={{ color: colors.black }}>
-					{article.body}
+					{article.preview}
 				</div>
 			</div>
 		</Link>

@@ -12,6 +12,7 @@ import strings from '../../data/strings';
 import Button from '../button';
 
 export default function HomeBox({ image, articleCategory, inverted }) {
+	/* inverted = whether the title is on the right side or the left side and change the colors */
 	return (
 		<div className="boxContainer">
 			<img className="boxImage" src={image} alt="box-background" />
@@ -21,6 +22,7 @@ export default function HomeBox({ image, articleCategory, inverted }) {
 				</p>
 				<Button
 					text={strings.home.knowMore}
+					/* inverted = change the colors of the button */
 					inverted={inverted}
 					link={process.env.PUBLIC_URL + '/articles/' + articleCategory}
 				/>
