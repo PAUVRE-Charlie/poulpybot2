@@ -35,7 +35,7 @@ export default function Home() {
 
 	return (
 		<ScrollToTop>
-			<div id="homeCategory">
+			<div id="homeSection">
 				{/* Hero category on top (that has a 100% height) */}
 				<HomeHero />
 

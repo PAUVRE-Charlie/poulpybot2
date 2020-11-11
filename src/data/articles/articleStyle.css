@@ -30,3 +30,12 @@
 	font-size: 1rem;
 	font-weight: normal;
 }
+
+.article .contents {
+	display: grid;
+	place-items: center;
+}
+
+.article .contents div > * {
+	cursor: pointer;
+}

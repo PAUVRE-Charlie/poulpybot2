@@ -1,5 +1,8 @@
 /* This file store an article used in this website */
 
+/* React imports */
+import { Link } from 'react-scroll';
+
 /* Styles imports */
 import './articleStyle.css';
 
@@ -14,7 +17,17 @@ const article = {
 		'Nous avons trouvé des Maxon DC motor 118751 de l’ancien club robotique sur le site de Nantes. Ils ont été trouvé avec un réducteur PLG32 36:1 et des capteurs incrémentaux Faulhauber HEDL-5540.',
 	body: (
 		<div className="article">
-			<h2>1. Introduction</h2>
+			<div className="contents">
+				<h1>Sommaire</h1>
+				<div style={{ margin: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+					<Link to="moteurIntroduction">Introduction</Link>
+					<Link to="moteurDefinitionDesBesoins">Définition des besoins</Link>
+					<Link to="moteurProtocoleExperimental">Protocole expérimental</Link>
+					<Link to="moteurExperience">Expérience</Link>
+					<Link to="moteurConclusion">Conclusion</Link>
+				</div>
+			</div>
+			<h2 id="moteurIntroduction">1. Introduction</h2>
 			<p>
 				Nous avons trouvé des Maxon DC motor 118751 de l’ancien club robotique sur le site de Nantes. Ils ont
 				été trouvé avec un réducteur PLG32 36:1 et des capteurs incrémentaux Faulhauber HEDL-5540. Voici leurs
@@ -58,7 +71,7 @@ const article = {
 				</ul>
 			</div>
 			<br />
-			<h2>2. Définition des besoins</h2>
+			<h2 id="moteurDefinitionDesBesoins">2. Définition des besoins</h2>
 			<p>
 				La première étape, avant de voir si les moteurs sont suffisants, est de définir nos besoins. Nous allons
 				considérer que dans le cas extrême (afin que chaque génération puisse réutiliser ce système de
@@ -80,16 +93,16 @@ const article = {
 				Cette année, nous avons des roues d’à peu près de 70 cm de diamètre, et l’efficité total du
 				motoréducteur est de 67%. On utilise 2 moteurs d'entraînement, et ceux ci fonctionnent sous 18V. Avec
 				toutes ces informations, voilà ce que nous stipule le site {' '}
+				<a href="https://www.robotshop.com/community/blog/show/dimensionnement-dun-moteur-dentranement">
+					RobotShop
+				</a>.
 			</p>
-			<a href="https://www.robotshop.com/community/blog/show/dimensionnement-dun-moteur-dentranement">
-				RobotShop
-			</a>
 			<br />
 			<img src={images.motor_article.robotshop} alt="valuesMinimalVoltage" />
 			<br />Bien entendu, il est très peu probable qu’on se retrouve un jour dan sun situation qui requiert ces
 			caractéristiques, mais le fait de pouvoir les atteindre nous conforterait sur la pérennité de la base
 			roulante. Si on ne les atteint pas, on s’en contentera.
-			<h2>3. Protocole expérimental</h2>
+			<h2 id="moteurProtocoleExperimental">3. Protocole expérimental</h2>
 			<p>
 				Pour pouvoir valider cela, nous avons mis en place un système permettant d’étudier le couple max fourni
 				par notre motoréducteur.
@@ -116,9 +129,9 @@ const article = {
 				choisi comme rayon de la poulie r=3,822cm, de sorte à ce que on ait environ une masse maximale à mettre
 				de 4kg.
 			</p>
-			<h2>4. Expérience</h2>
+			<h2 id="moteurExperience">4. Expérience</h2>
 			Photos+résultats
-			<h2>5. Conclusion</h2>
+			<h2 id="moteurConclusion">5. Conclusion</h2>
 			Peut-on l’utiliser cette année et les année prochaines?
 		</div>
 	)
