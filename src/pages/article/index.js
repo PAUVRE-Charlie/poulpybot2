@@ -47,7 +47,7 @@ export default function Article({ match }) {
 						<p className="articleTitle" style={{ color: colors.white }}>
 							{article.title}
 						</p>
-						<p className="articleSubtitle" style={{ color: colors.secondary }}>
+						<p className="articleSubtitle" style={{ color: colors.primary }}>
 							{article.author}
 						</p>
 					</div>

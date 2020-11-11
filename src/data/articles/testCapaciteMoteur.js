@@ -18,8 +18,9 @@ const article = {
 	body: (
 		<div className="article">
 			<div className="contents">
+				<img src={images.motor_article.motor} alt="backgroundTableOfContents" />
 				<h1>Sommaire</h1>
-				<div style={{ margin: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+				<div>
 					<Link to="moteurIntroduction">Introduction</Link>
 					<Link to="moteurDefinitionDesBesoins">Définition des besoins</Link>
 					<Link to="moteurProtocoleExperimental">Protocole expérimental</Link>
