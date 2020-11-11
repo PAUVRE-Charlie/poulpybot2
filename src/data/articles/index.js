@@ -4,20 +4,19 @@
 import strings from '../strings';
 
 /* Articles imports */
-import electronique_article from './eletronique';
 import testCapaciteMoteur_article from './testCapaciteMoteur';
 
 const articles = [
 	{
 		id: '1',
 		category: strings.articleCategories.robot,
-		...electronique_article
-	},
-	{
-		id: '2',
-		category: strings.articleCategories.robot,
 		...testCapaciteMoteur_article
 	}
+	// {
+	// 	id: '2',
+	// 	category: strings.articleCategories.robot,
+	// 	...electronique_article
+	// },
 	// {
 	// 	id: '3',
 	// 	category: strings.articleCategories.robot,
