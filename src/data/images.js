@@ -1,17 +1,24 @@
 // This file store all images used in this website
 
+const baseURL = process.env.PUBLIC_URL + '/assets/images/';
+
 const images = {
-	electronique: process.env.PUBLIC_URL + '/assets/images/electronique.svg',
-	coupe: process.env.PUBLIC_URL + '/assets/images/coupe.svg',
-	club_nantes: process.env.PUBLIC_URL + '/assets/images/club_nantes.svg',
-	lydia: process.env.PUBLIC_URL + '/assets/images/lydia.svg',
-	background: process.env.PUBLIC_URL + '/assets/images/background.svg',
+	electronique: baseURL + 'electronique.svg',
+	coupe: baseURL + 'coupe.svg',
+	club_nantes: baseURL + 'club_nantes.svg',
+	lydia: baseURL + 'lydia.svg',
+	background: baseURL + 'background.svg',
 	motor_article: {
-		motor: process.env.PUBLIC_URL + '/assets/images/motor.svg',
-		codeurIncremental: process.env.PUBLIC_URL + '/assets/images/motor_codeurincremental.svg',
-		reducteurs: process.env.PUBLIC_URL + '/assets/images/motor_reducteurs.svg',
-		robotshop: process.env.PUBLIC_URL + '/assets/images/motor_robotshop.svg',
-		valuesMinimalVoltage: process.env.PUBLIC_URL + '/assets/images/motor_valuesminimalvoltage.svg'
+		motor: baseURL + 'motor.svg',
+		codeurIncremental: baseURL + 'motor_codeurincremental.svg',
+		reducteurs: baseURL + 'motor_reducteurs.svg',
+		robotshop: baseURL + 'motor_robotshop.svg',
+		valuesMinimalVoltage: baseURL + 'motor_valuesminimalvoltage.svg'
+	},
+	coupe_theme:{
+		background: baseURL + 'coupe2.svg',
+		map: baseURL + 'table_schema.svg',
+		validite_bouee: baseURL + 'validite_bouee.svg',
 	}
 };
 
