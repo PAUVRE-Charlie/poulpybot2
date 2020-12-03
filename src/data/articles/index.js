@@ -7,6 +7,7 @@ import strings from '../strings';
 import testCapaciteMoteur_article from './testCapaciteMoteur';
 import coupeTheme_article from './coupeTheme';
 import coupeInscription_article from './coupeInscription';
+import imtAtlantique_article from './imtAtlantique';
 
 const articles = [
 	{
@@ -23,6 +24,11 @@ const articles = [
 		id: '3',
 		category: strings.articleCategories.coupe,
 		...coupeInscription_article
+	},
+	{
+		id: '4',
+		category: strings.articleCategories.club,
+		...imtAtlantique_article
 	}
 ];
 

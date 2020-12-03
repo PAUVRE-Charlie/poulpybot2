@@ -24,7 +24,7 @@ const article = {
 					<Link to="themeCoupeIntroduction">Introduction</Link>
 					<Link to="themeCoupeMap">Table</Link>
 					<Link to="themeCoupeRules">Règles du tournoi</Link>
-					<Link to="themeCoupeSources">Sources</Link>
+					<Link to="themeCoupeLinks">Liens</Link>
 				</div>
 			</div>
 			<h2 id="themeCoupeIntroduction">1. Introduction</h2>
@@ -75,7 +75,7 @@ const article = {
                 </li>
             </ul>
 
-            <h2 id="themeCoupeSources">4. Sources</h2>
+            <h2 id="themeCoupeLinks">4. Liens</h2>
             <a href="https://www.coupederobotique.fr/edition-2021/le-concours/thematique/">Site internet de l'édition 2021 de la coupe</a>
 		</div>
 	)

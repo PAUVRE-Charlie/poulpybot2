@@ -19,6 +19,10 @@ const images = {
 		background: baseURL + 'coupe2.svg',
 		map: baseURL + 'table_schema.svg',
 		validite_bouee: baseURL + 'validite_bouee.svg',
+	},
+	imt:{
+		campus: baseURL + 'imt.svg',
+		mixImages: baseURL + 'imt2.svg',
 	}
 };
 
