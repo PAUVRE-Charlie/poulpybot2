@@ -23,6 +23,13 @@ const images = {
 	imt:{
 		campus: baseURL + 'imt.svg',
 		mixImages: baseURL + 'imt2.svg',
+	},
+	detection:{
+		model: baseURL + 'detection_model.svg',
+		capteur: baseURL + 'detection_capteur.svg',
+		montage: baseURL + 'detection_montage.svg',
+		schema_montage: baseURL + 'detection_schema_montage.svg',
+		code: baseURL + 'detection_code.svg',
 	}
 };
 

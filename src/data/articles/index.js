@@ -8,6 +8,7 @@ import testCapaciteMoteur_article from './testCapaciteMoteur';
 import coupeTheme_article from './coupeTheme';
 import coupeInscription_article from './coupeInscription';
 import imtAtlantique_article from './imtAtlantique';
+import detectionEcueils_article from './detectionEcueils';
 
 const articles = [
 	{
@@ -29,6 +30,11 @@ const articles = [
 		id: '4',
 		category: strings.articleCategories.club,
 		...imtAtlantique_article
+	},
+	{
+		id: '5',
+		category: strings.articleCategories.robot,
+		...detectionEcueils_article
 	}
 ];
 

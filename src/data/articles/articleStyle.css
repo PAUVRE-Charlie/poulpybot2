@@ -66,12 +66,20 @@
 	align-items: center;
 	border-radius: 0.5rem;
 	background: rgba(0, 0, 0, .7);
-	padding: 1rem;
+	padding: 1rem 3rem;
 	text-align: center;
 }
 
 .article .contents div > * {
 	cursor: pointer;
 	color: #fff;
-	padding: 0.2rem 0;
+	padding: 0.3rem 0;
+	margin: 0;
+}
+
+.article .sideViewImage {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
 }
