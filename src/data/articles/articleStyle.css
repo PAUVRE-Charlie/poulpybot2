@@ -12,6 +12,11 @@
 	margin: 1rem 10%;
 }
 
+.article video {
+	width: 80%;
+	margin: 1rem 10%;
+}
+
 .article a {
 	color: #02b8df;
 	text-decoration: none;

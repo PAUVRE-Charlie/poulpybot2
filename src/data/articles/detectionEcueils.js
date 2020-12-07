@@ -8,6 +8,7 @@ import './articleStyle.css';
 
 /* Data imports */
 import images from '../images';
+import videos from '../videos';
 
 const article = {
 	title: 'Detection des ecueils',
@@ -25,6 +26,7 @@ const article = {
 					<Link to="detectionEcueilsPrincipe">Principe</Link>
 					<Link to="detectionEcueilsMontage">Test</Link>
 					<Link to="detectionEcueilsCode">Code</Link>
+					<Link to="detectionEcueilsVideo">Vidéo de l'expérience</Link>
 				</div>
 			</div>
 			<h2 id="detectionEcueilsIntroduction">1. Introduction</h2>
@@ -71,8 +73,12 @@ const article = {
                 d’exprimer la valeur reçue en distance en millimètre. La distance a été 
                 calculée en considérant une vitesse du son de 340 m/s.
             </p>
-            
-			
+			<h2 id="detectionEcueilsVideo">5. Vidéo de l'expérience</h2>
+            <p>Voici une vidéo de l’expérience avec les résultats en direct:</p>
+            <br/>
+            <video controls>
+                <source src={videos.detection_experience} type="video/mp4" />
+            </video>
         </div>
 	)
 };
