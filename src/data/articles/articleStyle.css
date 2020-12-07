@@ -40,6 +40,10 @@
 	font-weight: normal;
 }
 
+.article p {
+	text-indent: 3rem;
+}
+
 .article .contents {
 	position: relative;
 	width: 100%;

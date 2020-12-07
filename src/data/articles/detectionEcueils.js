@@ -19,7 +19,7 @@ const article = {
 	body: (
 		<div className="article">
 			<div className="contents">
-				<img src={images.detection.model} alt="backgroundTableOfContents" />
+				<img src={images.electronique} alt="backgroundTableOfContents" />
 				<h1>Sommaire</h1>
 				<div>
 					<Link to="detectionEcueilsIntroduction">Introduction</Link>
@@ -35,6 +35,7 @@ const article = {
                 récupérer à l’aide d’actionneurs, il devient indispensable 
                 au robot de savoir se positionner correctement.
             </p>
+            <img src={images.detection.model} alt="model" />
 			<h2 id="detectionEcueilsPrincipe">2. Principe</h2>
             <p>Pour se faire, l’odométrie guidera le robot jusqu’à la zone proche de l’écueil.</p>
             <br/>
