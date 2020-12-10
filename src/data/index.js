@@ -7,7 +7,8 @@ import images from './images';
 import videos from './videos';
 import colors from './colors';
 import articles from './articles';
+import team from './team';
 
-const data = { strings, icons, images, videos, colors, articles };
+const data = { strings, icons, images, videos, colors, articles, team };
 
 export default data;

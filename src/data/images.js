@@ -5,7 +5,6 @@ const baseURL = process.env.PUBLIC_URL + '/assets/images/';
 const images = {
 	electronique: baseURL + 'electronique.svg',
 	coupe: baseURL + 'coupe.svg',
-	club_nantes: baseURL + 'club_nantes.svg',
 	lydia: baseURL + 'lydia.svg',
 	background: baseURL + 'background.svg',
 	motor_article: {
@@ -30,7 +29,16 @@ const images = {
 		montage: baseURL + 'detection_montage.svg',
 		schema_montage: baseURL + 'detection_schema_montage.svg',
 		code: baseURL + 'detection_code.svg',
-	}
+	},
+	club_nantes:{
+		equipe: baseURL + 'club_nantes.svg',
+		charlie: baseURL + 'charlie.svg',
+	},
+	coupe_edition_2020:{
+		image1: baseURL + 'edition2020.svg',
+		image2: baseURL + 'edition2020_2.svg',
+		results: baseURL + 'resultats_2020.svg',
+	} 
 };
 
 export default images;

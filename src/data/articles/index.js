@@ -9,6 +9,9 @@ import coupeTheme_article from './coupeTheme';
 import coupeInscription_article from './coupeInscription';
 import imtAtlantique_article from './imtAtlantique';
 import detectionEcueils_article from './detectionEcueils';
+import club_nantes_article from './clubNantes';
+import club_brest_article from './clubBrest';
+import coupe2020_article from './coupe2020';
 
 const articles = [
 	{
@@ -35,6 +38,21 @@ const articles = [
 		id: '5',
 		category: strings.articleCategories.robot,
 		...detectionEcueils_article
+	},
+	{
+		id: '6',
+		category: strings.articleCategories.club,
+		...club_nantes_article
+	},
+	{
+		id: '7',
+		category: strings.articleCategories.club,
+		...club_brest_article
+	},
+	{
+		id: '8',
+		category: strings.articleCategories.coupe,
+		...coupe2020_article
 	}
 ];
 

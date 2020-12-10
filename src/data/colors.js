@@ -8,7 +8,8 @@ const colors = {
 	secondaryOpacity70: 'rgba(2, 184, 223, 0.7)',
 	white: '#fcfcfc',
 	whiteOpacity70: 'rgba(255, 255, 255, 0.7)',
-	black: '#000000'
+	black: '#000000',
+	grey: '#aaa'
 };
 
 export default colors;
