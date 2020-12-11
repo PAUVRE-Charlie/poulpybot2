@@ -70,7 +70,8 @@ const article = {
                 <li>5 formations off-shore (Chine, Côte d’Ivoire, Maroc, Vietnam, Sénégal)</li>
             </ul>
             <h2 id="themeCoupeLinks">6. Liens</h2>
-			<a href="https://www.imt-atlantique.fr/fr/">Site de l'école</a>
+			<a href="https://www.imt-atlantique.fr/fr/">Site de l'école</a><br/>
+			<a href="https://www.youtube.com/c/IMTAtlantique/featured">Chaîne youtube</a>
         </div>
 	)
 };

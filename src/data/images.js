@@ -33,6 +33,21 @@ const images = {
 	club_nantes:{
 		equipe: baseURL + 'club_nantes.svg',
 		charlie: baseURL + 'charlie.svg',
+		kamil: baseURL + 'kamil.svg',
+		theo: baseURL + 'theo.svg',
+		sebastian: baseURL + 'sebastian.svg',
+		victor: baseURL + 'victor.svg',
+		alexis: baseURL + 'alexis.svg',
+		kevin: baseURL + 'kevin.svg',
+	},
+	club_brest:{
+		equipe: baseURL + 'club_brest.svg',
+		aziz: baseURL + 'aziz.svg',
+		xiayue: baseURL + 'xiayue.svg',
+		sean: baseURL + 'sean.svg',
+		esteban: baseURL + 'esteban.svg',
+		maxence: baseURL + 'maxence.svg',
+		jeremy: baseURL + 'jeremy.svg',
 	},
 	coupe_edition_2020:{
 		image1: baseURL + 'edition2020.svg',

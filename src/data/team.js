@@ -10,7 +10,7 @@ const team = {
             firstname: 'Kamil',
             lastname: 'Takhi',
             nickname: 'Le Rusher',
-            image: images.club_nantes.charlie,
+            image: images.club_nantes.kamil,
             taf: 'Automatique et Systèmes Cyber-Physiques',
             description: "J’aime la Robotique, le challenge de la coupe semblait intéressant et la perspective de travailler avec une autre équipe en distanciel à Brest semblait vraiment riche. Je gère le côté administratif en tant que president du club, et je participe à la partie loi de commande, asservissement et capteurs"
         },
@@ -19,7 +19,7 @@ const team = {
             firstname: 'Théo',
             lastname: 'Fontenit',
             nickname: 'Le Challenger',
-            image: images.club_nantes.charlie,
+            image: images.club_nantes.theo,
             taf: 'Automatique et Systèmes Cyber-Physiques',
             description: "Je suis passionné de robotique depuis le lycée et j’ai eu l’occasion d’assister à la coupe de France de robotique en 2019, cela m’a beaucoup plus et c’est pourquoi le projet me tiens à cœur. J'ai le rôle du responsable du forum et de la création du poster."
         },
@@ -28,7 +28,7 @@ const team = {
             firstname: 'Sébastian',
             lastname: 'Heyer',
             nickname: 'Elec Master',
-            image: images.club_nantes.charlie,
+            image: images.club_nantes.sebastian,
             taf: 'Robotique et Interactions',
             description: "Passioné de l'électronique, j'adore la compétition et je suis très motivé."
         },
@@ -46,7 +46,7 @@ const team = {
             firstname: 'Victor',
             lastname: 'Gerardo Nosthas',
             nickname: 'Chief Happiness Officer',
-            image: images.club_nantes.charlie,
+            image: images.club_nantes.victor,
             taf: 'Automatique et Systèmes Cyber-Physiques',
             description: "J'aime l'éléctronique et le traitement du signal, ce projet me semble parfait pour faire une première application des contenus de ma TAF de cette année. Le fait de participer dans une compétiton me motive encore plus."
         },
@@ -55,7 +55,7 @@ const team = {
             firstname: 'Kevin',
             lastname: 'Michalewicz',
             nickname: 'Crew Manager',
-            image: images.club_nantes.charlie,
+            image: images.club_nantes.kevin,
             taf: 'Robotique et Interactions',
             description: "J'ai des connaissance de l'électronique, de la robotique et de l'automatisation et j'ai un intérêt profond pour la robotique."
         },
@@ -64,7 +64,7 @@ const team = {
             firstname: 'Alexis',
             lastname: 'Hamel',
             nickname: 'Le Datacenter',
-            image: images.club_nantes.charlie,
+            image: images.club_nantes.alexis,
             taf: 'Robotique et Interactions',
             description: "Je suis responsable de la documentation sur le projet, je suis à l'écoute, détérminé et je cherche à découvrir le monde des effecteurs."
         }
@@ -75,16 +75,16 @@ const team = {
             firstname: 'Aziz',
             lastname: 'Sellami',
             nickname: 'Le compas',
-            image: images.club_nantes.charlie,
+            image: images.club_brest.aziz,
             taf: 'Systèmes Embarqués Hétérogènes',
             description: "Ponctuel et rigoureux"
         },
-        Andres:{
+        Esteban:{
             id: 9,
             firstname: 'Andrés Esteban',
             lastname: 'Sierra Sanchez',
             nickname: 'Le Couteau Suisse',
-            image: images.club_nantes.charlie,
+            image: images.club_brest.esteban,
             taf: 'Systèmes Embarqués Hétérogènes',
             description: "Polyvalence et adaptabilité"
         },
@@ -93,7 +93,7 @@ const team = {
             firstname: 'Sean',
             lastname: 'Bonnemains',
             nickname: 'Le Scrum Master',
-            image: images.club_nantes.charlie,
+            image: images.club_brest.sean,
             taf: "Conception d'Objects Communicants",
             description: "Coordonner et orienter"
         },
@@ -102,7 +102,7 @@ const team = {
             firstname: 'Jérémy',
             lastname: 'Roques',
             nickname: "L'ancien",
-            image: images.club_nantes.charlie,
+            image: images.club_brest.jeremy,
             taf: 'Systèmes Embarqués Hétérogènes',
             description: "Experience et professionnalisme"
         },
@@ -111,7 +111,7 @@ const team = {
             firstname: 'Xiayue',
             lastname: 'Shen',
             nickname: 'Le Businessman',
-            image: images.club_nantes.charlie,
+            image: images.club_brest.xiayue,
             taf: 'Dévelopement collaboratif de logiciels',
             description: "Innovant et performant"
         },
@@ -120,7 +120,7 @@ const team = {
             firstname: 'Maxence',
             lastname: 'Nesme',
             nickname: "L'agrégateur",
-            image: images.club_nantes.charlie,
+            image: images.club_brest.maxence,
             taf: 'Mathematical and Computational Engineering',
             description: "Rassembler et intégrer"
         },

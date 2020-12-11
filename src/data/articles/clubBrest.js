@@ -13,14 +13,14 @@ import team from '../team';
 
 const article = {
 	title: "Club robotique de Brest",
-	image: images.club_nantes.equipe,
+	image: images.club_brest.equipe,
 	author: 'Atlantic Robotic Club',
 	preview:
 		'Cet article présente les membres du club robotique de Brest.',
 	body: (
 		<div className="article">
             <div className="contents">
-				<img src={images.club_nantes.equipe} alt="backgroundTableOfContents" />
+				<img src={images.club_brest.equipe} alt="backgroundTableOfContents" />
 				<h1>Liste des membres</h1>
 				<div>
                     {
