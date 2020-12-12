@@ -53,7 +53,8 @@ const article = {
 			<h2 id="detectionEcueilsMontage">3. Test</h2>
             <p>Nous avons testé un capteur ultrason VMA360 afin d’expliquer le principe de fonctionnement similaire du VL53L1X.</p>
             <br/>
-            <div className="sideViewImage" style={{flexDirection: 'row-reverse'}}>
+            <div className="sideViewImage">
+                <img src={images.detection.montage} style={{width: '50%', margin: '0 1rem 0 0'}} alt="capteur"></img>
                 <p> Le module ultrasonique VMA360 a 4 broches: GND, VCC, Trig et Echo. 
                     Les broches de masse et de VCC du module doivent être connectées, 
                     respectivement, à la masse et à la broche de 5 volts de la carte 
@@ -61,7 +62,6 @@ const article = {
                     numérique de la carte Arduino. Arbitrairement, nous avons nommé 
                     le numéro 9 comme trigPin et le numéro 10 comme echoPin.
                 </p>
-                <img src={images.detection.montage} style={{width: '50%', margin: '0 1rem 0 0'}} alt="capteur"></img>
             </div>
             <img src={images.detection.schema_montage} alt="capteur"></img>
 			<h2 id="detectionEcueilsCode">4. Code arduino</h2>

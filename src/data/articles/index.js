@@ -12,6 +12,8 @@ import detectionEcueils_article from './detectionEcueils';
 import club_nantes_article from './clubNantes';
 import club_brest_article from './clubBrest';
 import coupe2020_article from './coupe2020';
+import modelisation_article from './modelisation';
+import simulation_article from './simulation';
 
 const articles = [
 	{
@@ -53,6 +55,16 @@ const articles = [
 		id: '8',
 		category: strings.articleCategories.coupe,
 		...coupe2020_article
+	},
+	{
+		id: '9',
+		category: strings.articleCategories.robot,
+		...modelisation_article
+	},
+	{
+		id: '10',
+		category: strings.articleCategories.robot,
+		...simulation_article
 	}
 ];
 

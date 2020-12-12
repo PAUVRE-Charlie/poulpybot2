@@ -50,6 +50,21 @@
 	text-indent: 3rem;
 }
 
+.article table {
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+.article td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+  
+.article td:nth-child(odd) {
+	background-color: #dddddd;
+}
+
 .article .contents {
 	position: relative;
 	width: 100%;

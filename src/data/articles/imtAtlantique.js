@@ -27,7 +27,6 @@ const article = {
 					<Link to="themeCoupeResearch">Recherche</Link>
 					<Link to="themeCoupeInternational">International</Link>
 					<Link to="themeCoupeLinks">Liens</Link>
-					
 				</div>
 			</div>
 			<h2 id="themeCoupeIntroduction">1. Introduction</h2>

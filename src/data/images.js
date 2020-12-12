@@ -53,7 +53,20 @@ const images = {
 		image1: baseURL + 'edition2020.svg',
 		image2: baseURL + 'edition2020_2.svg',
 		results: baseURL + 'resultats_2020.svg',
-	} 
+	},
+	modelisation3D: {
+		constrains: baseURL + 'contraintes_taille.svg',
+		robot_front: baseURL + 'Robotv3_vue_avant.svg',
+		robot_back: baseURL + 'Robotv3_vue_derriere.svg',
+		fusion_logo: baseURL + 'fusion.svg'
+	},
+	simulation:{
+		interface: baseURL + 'interface_webots_commenté.svg',
+		lds: baseURL + 'LDS-01.svg',
+		logo_webots: baseURL + 'logo_webots.svg',
+		simple_model: baseURL + 'simple_robot_commenté.svg',
+		simulation: baseURL + 'simu.svg',
+	}
 };
 
 export default images;
