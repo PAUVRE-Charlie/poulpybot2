@@ -42,14 +42,14 @@ const article = {
                 <li>
                     Le périmètre d’un robot ne doit pas excéder 1200 mm au moment du départ. Le périmètre de ce robot totalement déployé ne doit pas excéder 1300 mm au cours du match. (<a href="https://www.coupederobotique.fr/edition-2020/le-concours/thematique/">Règlement</a> - Section F2)
                     <br/>
-                    <img src={images.modelisation3D.constrains} style={{width: '30%', margin: '0 35% 0 35% '}} alt="logo_fusion"></img>
+                    <img src={images.modelisation3D.constrains} style={{width: '50%', margin: '0 25% 0 25% '}} alt="logo_fusion"></img>
                 </li>
                 <li>
                 À tout instant au cours du match, la hauteur de chaque robot ne doit pas dépasser 350 mm. Cependant, il sera toléré que le bouton d’arrêt d’urgence dépasse de cette hauteur limite pour atteindre 375 mm. (<a href="https://www.coupederobotique.fr/edition-2020/le-concours/thematique/">Règlement</a> - Section F2)
                 </li>
             </ul>
             <br/>
-            <span>Intégration sur le site:</span>
+            <span>Intégration sur le site:</span><br/>
             <iframe title="fusion-model" src="https://imtatlantique10.autodesk360.com/shares/public/SH56a43QTfd62c1cd968a8f3514029fc2801?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
         </div>
 	)
