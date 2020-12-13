@@ -65,6 +65,7 @@
 
 .article th {
 	text-align: center;
+	background-color: #aaa;
 }
   
 .article td:nth-child(odd) {

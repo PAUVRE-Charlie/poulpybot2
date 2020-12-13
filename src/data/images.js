@@ -106,6 +106,11 @@ const images = {
 		wheels: baseURL + 'roues.svg',
 		motor: baseURL + 'motor.svg',
 		base: baseURL + 'base.svg',
+	},
+	lidar: {
+		window: baseURL + 'lidar_fenetre.svg',
+		rplidar: baseURL + 'rplidar.svg',
+		sdk: baseURL + 'sdk.svg',
 	}
 };
 
