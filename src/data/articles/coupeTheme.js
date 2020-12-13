@@ -22,7 +22,7 @@ const article = {
 				<h1>Sommaire</h1>
 				<div>
 					<Link to="themeCoupeIntroduction">Liste des missions</Link>
-					<Link to="themeCoupeMap">L'air de jeu</Link>
+					<Link to="themeCoupeMap">L'aire de jeu</Link>
 					<Link to="themeCoupeMission1">Mission 1: Créer des chenaux</Link>
 					<Link to="themeCoupeMission2">Mission 2: Relever les manches à air</Link>
 					<Link to="themeCoupeMission3">Mission 3: Allumer le phare</Link>
@@ -43,7 +43,7 @@ const article = {
                 <li><span><b>Estimer votre performance</b>.</span></li>
             </ul><br/>
             <p>Toutes ces actions sont <b>indépendantes les unes des autres et aucun ordre n’est imposé pour les réaliser</b>. Aucune action n’est obligatoire.</p>
-            <br/><h2 id="themeCoupeMap">L'air de jeu</h2><br/>
+            <br/><h2 id="themeCoupeMap">L'aire de jeu</h2><br/>
             <span>Dimensions : 3mx2mx70cm</span><br/><br/>
             <span>CHANGEMENT: Ajout de la zone de haut-fond sous la girouette (12)</span><br/>
             <img src={images.coupe_theme.map} alt="map" />
