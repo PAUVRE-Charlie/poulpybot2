@@ -144,7 +144,7 @@ const article = {
 
             <br/><h4 id="themeCoupeMission5">Mission 5: Hisser des pavillons</h4><br/>
             <h5><u>Les pavillons et leurs contraintes</u></h5><br/>
-            <p>Entre la 95ème seconde et la 100ème seconde du match, les robots doivent hisser au moins  2 pavillons conformes au code international des signaux maritimes (pavillons de type lettre) (pour plus d'informations, voir <a href="https://fr.wikipedia.org/wiki/Code_international_des_signaux_maritimes">ici</a>).Ces pavillons sont recto verso et doivent avoir une surface >=30cm².</p>
+            <p>Entre la 95ème seconde et la 100ème seconde du match, les robots doivent hisser au moins  2 pavillons conformes au code international des signaux maritimes (pavillons de type lettre) (pour plus d'informations, voir <a href="https://fr.wikipedia.org/wiki/Code_international_des_signaux_maritimes">ici</a>).Ces pavillons sont recto verso et doivent avoir une surface `{'>'}`=30cm².</p>
             <p>Ils doivent être hissés avant la fin à au moins 35 cm de hauteur (cf figures b et c).</p>
             <img src={images.coupe_theme.robot_positions} alt="robot-positions" />
             <h5><u>Comptage des points</u></h5><br/>

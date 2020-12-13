@@ -12,7 +12,10 @@ const images = {
 		codeurIncremental: baseURL + 'motor_codeurincremental.svg',
 		reducteurs: baseURL + 'motor_reducteurs.svg',
 		robotshop: baseURL + 'motor_robotshop.svg',
-		valuesMinimalVoltage: baseURL + 'motor_valuesminimalvoltage.svg'
+		valuesMinimalVoltage: baseURL + 'motor_valuesminimalvoltage.svg',
+		disk: baseURL + 'moteur_disques.svg',
+		shelf : baseURL + 'moteur_creux.svg',
+		experience : baseURL + 'moteur_exp.svg',
 	},
 	coupe_theme:{
 		background: baseURL + 'coupe2.svg',
