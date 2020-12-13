@@ -4,7 +4,7 @@
 import strings from '../strings';
 
 /* Articles imports */
-import testCapaciteMoteur_article from './testCapaciteMoteur';
+import modelisation_article from './modelisation';
 import coupeTheme_article from './coupeTheme';
 import coupeInscription_article from './coupeInscription';
 import imtAtlantique_article from './imtAtlantique';
@@ -12,16 +12,18 @@ import detectionEcueils_article from './detectionEcueils';
 import club_nantes_article from './clubNantes';
 import club_brest_article from './clubBrest';
 import coupe2020_article from './coupe2020';
-import modelisation_article from './modelisation';
+import testCapaciteMoteur_article from './testCapaciteMoteur';
 import simulation_article from './simulation';
 import detectionTags_article from './detectionTags';
 import detectionCouleurs_article from './detectionCouleurs';
+import equipment_article from './equipment';
+import lidar_article from './lidar';
 
 const articles = [
 	{
 		id: '1',
 		category: strings.articleCategories.robot,
-		...testCapaciteMoteur_article
+		...modelisation_article
 	},
 	{
 		id: '2',
@@ -61,7 +63,7 @@ const articles = [
 	{
 		id: '9',
 		category: strings.articleCategories.robot,
-		...modelisation_article
+		...testCapaciteMoteur_article
 	},
 	{
 		id: '10',
@@ -77,6 +79,16 @@ const articles = [
 		id: '12',
 		category: strings.articleCategories.robot,
 		...detectionCouleurs_article
+	},
+	{
+		id: '13',
+		category: strings.articleCategories.robot,
+		...equipment_article
+	},
+	{
+		id: '14',
+		category: strings.articleCategories.robot,
+		...lidar_article
 	}
 ];
 

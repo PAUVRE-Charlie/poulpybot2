@@ -101,6 +101,11 @@ const images = {
 		table_sensors: baseURL + 'tableau_capteurs.svg',
 		sensor_TCS3200: baseURL + 'TCS3200.svg',
 		sensor_TCS34725: baseURL + 'TCS34725.svg',
+	},
+	equipment:{
+		wheels: baseURL + 'roues.svg',
+		motor: baseURL + 'motor.svg',
+		base: baseURL + 'base.svg',
 	}
 };
 

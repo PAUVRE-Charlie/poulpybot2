@@ -62,9 +62,37 @@
 	text-align: left;
 	padding: 8px;
 }
+
+.article th {
+	text-align: center;
+}
   
 .article td:nth-child(odd) {
 	background-color: #dddddd;
+}
+
+.article .tableProsAndCons th:nth-child(1){
+	background-color: #ddd;
+}
+
+.article .tableProsAndCons th:nth-child(2){
+	background-color: rgba(0, 255, 0, .7);
+}
+
+.article .tableProsAndCons th:nth-child(3){
+	background-color: rgba(255, 0, 0, .7);
+}
+
+.article .tableProsAndCons td:nth-child(1){
+	background-color: white;
+}
+
+.article .tableProsAndCons td:nth-child(2){
+	background-color: rgba(0, 255, 0, .2);
+}
+
+.article .tableProsAndCons td:nth-child(3){
+	background-color: rgba(255, 0, 0, .2);
 }
 
 .article .contents {
