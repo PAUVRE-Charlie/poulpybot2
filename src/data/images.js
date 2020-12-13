@@ -66,6 +66,21 @@ const images = {
 		logo_webots: baseURL + 'logo_webots.svg',
 		simple_model: baseURL + 'simple_robot_commenté.svg',
 		simulation: baseURL + 'simu.svg',
+	},
+	detection_tags:{
+		compass_tag: baseURL + 'boussole_tag.svg',
+		compass: baseURL + 'boussole.svg',
+		charuco_board: baseURL + 'charuco_board.svg',
+		demo1: baseURL + 'demo_tag1.svg',
+		demo2: baseURL + 'demo_tag2.svg',
+		tag_cases: baseURL + 'tag_cases.svg',
+		equipment: baseURL + 'tag_materiel.svg',
+		results: baseURL + 'tag_results.svg',
+		tag: baseURL + 'tag.svg',
+		tag1: baseURL + 'tag1.svg',
+		tag2: baseURL + 'tag2.svg',
+		tag3: baseURL + 'tag3.svg',
+		tag4: baseURL + 'tag4.svg',
 	}
 };
 

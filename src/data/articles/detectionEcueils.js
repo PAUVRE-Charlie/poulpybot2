@@ -13,7 +13,7 @@ import videos from '../videos';
 const article = {
 	title: 'Detection des ecueils',
 	image: images.detection.model,
-	author: 'Atlantic Robotic Club',
+	author: 'Sebastian Heyer',
 	preview:
 		"Dans notre stratégie nous souhaiterions profiter des écueils sur lesquels sont disposées 5 bouées. Pour les récupérer à l’aide d’actionneurs, il devient indispensable au robot de savoir se positionner correctement.",
 	body: (

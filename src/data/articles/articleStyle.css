@@ -114,6 +114,16 @@
 	flex-direction: row;
 }
 
+.article .multipleImages{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.article .multipleImages img{
+	margin: 0;
+}
+
 .article .avatar {
 	margin: 5rem 0;
 	justify-content: center;

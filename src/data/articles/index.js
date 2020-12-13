@@ -14,6 +14,7 @@ import club_brest_article from './clubBrest';
 import coupe2020_article from './coupe2020';
 import modelisation_article from './modelisation';
 import simulation_article from './simulation';
+import detectionTags_article from './detectionTags';
 
 const articles = [
 	{
@@ -65,6 +66,11 @@ const articles = [
 		id: '10',
 		category: strings.articleCategories.robot,
 		...simulation_article
+	},
+	{
+		id: '11',
+		category: strings.articleCategories.robot,
+		...detectionTags_article
 	}
 ];
 
