@@ -17,7 +17,16 @@ const images = {
 	coupe_theme:{
 		background: baseURL + 'coupe2.svg',
 		map: baseURL + 'table_schema.svg',
-		validite_bouee: baseURL + 'validite_bouee.svg',
+		shuffle_buoy: baseURL + 'combinaisons_bouees.svg',
+		robot_positions: baseURL + 'positions_robot.svg',
+		map_scheme: baseURL + 'schema_table.svg',
+		map_sweep: baseURL + 'table_balayage.svg',
+		map_windsock: baseURL + 'table_manches.svg',
+		map_upView: baseURL + 'table_vue_dessus.svg',
+		map_zones: baseURL + 'table_zone_mouillage.svg',
+		map_compass: baseURL + 'boussole.svg',
+		validity_robot: baseURL + 'validite_robot.svg',
+		validity_buoy: baseURL + 'validite_bouee.svg',
 	},
 	imt:{
 		campus: baseURL + 'imt.svg',

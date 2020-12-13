@@ -31,6 +31,8 @@
 .article ul {
 	list-style-type: disk;
 	list-style-position: inside;
+	width: 95%;
+	margin: 0 0 0 5%;
 }
 
 .article ul > li > ul{
