@@ -41,7 +41,7 @@ const article = {
             <br/>
             <h3>La détection</h3><br/>
             <span>La détection se fait en plusieurs temps :</span><br/><br/>
-            <ul style={{width: '95%', margin: '0 0 0 5%'}}>
+            <ul>
                 <li><span>tout d’abord un seuillage est effectué (l’image captée est transformée en noir et blanc) et on détecte des candidats potentiels, c’est à dire des formes carrées correspondantes en termes de taille en pixels par exemple au marqueurs que l’on cherche à détecter.</span></li>
                 <li><span>ensuite on récupère chacun des candidats potentiels et, un par un, on redresse l’image qui est souvent distordu lors de sa prise par la caméra.</span></li>
                 <li>
@@ -101,7 +101,7 @@ const article = {
             <img src={images.detection_tags.results} style={{width: '100%', margin:'0'}} alt="results"/>
             <br/><br/><h3>Remarques</h3><br/>
             <span>Sur les 10 images capturées :</span><br/><br/>
-            <ul style={{width: '95%', margin: '0 0 0 5%'}}>
+            <ul>
                 <li><span>Pour 4 des 10 images capturées, une erreur s’est produite : à 3 reprises, l’angle de rotation n’a pu être correctement calculé, tandis qu’à une reprise le marqueur n’a pas pu être identifié.</span></li>
                 <li><span>Pour les 6 images restantes, l’identification a toujours été bonne, et les angles obtenus pertinents. On peut le constater pour l’image 2 et l’image 8 par exemple.</span></li>
             </ul><br/>

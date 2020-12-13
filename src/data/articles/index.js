@@ -15,6 +15,7 @@ import coupe2020_article from './coupe2020';
 import modelisation_article from './modelisation';
 import simulation_article from './simulation';
 import detectionTags_article from './detectionTags';
+import detectionCouleurs_article from './detectionCouleurs';
 
 const articles = [
 	{
@@ -71,6 +72,11 @@ const articles = [
 		id: '11',
 		category: strings.articleCategories.robot,
 		...detectionTags_article
+	},
+	{
+		id: '12',
+		category: strings.articleCategories.robot,
+		...detectionCouleurs_article
 	}
 ];
 

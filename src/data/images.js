@@ -93,6 +93,14 @@ const images = {
 		tag2: baseURL + 'tag2.svg',
 		tag3: baseURL + 'tag3.svg',
 		tag4: baseURL + 'tag4.svg',
+	},
+	detection_color:{
+		arduino: baseURL + 'couleur_arduino.svg',
+		code: baseURL + 'couleur_code.svg',
+		harbor: baseURL + 'map_port.svg',
+		table_sensors: baseURL + 'tableau_capteurs.svg',
+		sensor_TCS3200: baseURL + 'TCS3200.svg',
+		sensor_TCS34725: baseURL + 'TCS34725.svg',
 	}
 };
 
