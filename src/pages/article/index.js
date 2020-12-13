@@ -7,6 +7,7 @@ import './article.css';
 /* Data imports */
 import articles from '../../data/articles';
 import colors from '../../data/colors';
+import icons from '../../data/icons';
 
 /* Components imports */
 import ScrollToTop from '../../components/ScrollToTop';
@@ -50,6 +51,7 @@ export default function Article({ match }) {
 						<p className="articleSubtitle" style={{ color: colors.primary }}>
 							{article.author}
 						</p>
+						<a className="articleBackArrow" href={process.env.PUBLIC_URL + '/articles/' + match.params.category}><img src={icons.arrowDown} alt="arrow-back"></img></a>
 					</div>
 
 					{/* the body of the article */}

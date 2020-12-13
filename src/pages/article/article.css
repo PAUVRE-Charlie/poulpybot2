@@ -37,6 +37,19 @@
 	opacity: 0;
 }
 
+/* the arrow used to go back to the article page */
+.articleBackArrow{
+	position: absolute;
+	vertical-align: center;
+	left:3vw;
+}
+
+/* the icon used as the back arrow */
+.articleBackArrow img{
+	width: 3em;
+	transform: rotate(90deg);
+}
+
 /* the body of the article */
 .articleBody {
 	width: 100%;
