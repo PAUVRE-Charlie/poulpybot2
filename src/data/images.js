@@ -133,6 +133,9 @@ const images = {
 		table1: baseURL + 'asservissement_table1.svg',
 		table2: baseURL + 'asservissement_table2.svg',
 		blueprint: baseURL + 'asservissement_schema.svg',
+	},
+	actuator: {
+		blueprint: baseURL + 'actionneur_schema.svg'
 	}
 };
 
