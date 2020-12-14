@@ -117,6 +117,11 @@ const images = {
 	strategy: {
 		map: baseURL + 'table_schema.svg',
 		map_scheme: baseURL + 'table_vue_dessus.svg',
+	},
+	windsock:{
+		scheme: baseURL + 'pavillon_ressort.svg',
+		model1: baseURL + 'pavillon1.svg',
+		model2: baseURL + 'pavillon2.svg',
 	}
 };
 

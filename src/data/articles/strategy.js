@@ -8,7 +8,6 @@ import './articleStyle.css';
 
 /* Data imports */
 import images from '../images';
-import videos from '../videos';
 
 const article = {
 	title: 'Stratégie de l’ARC vis à vis de la Coupe de France de Robotique',

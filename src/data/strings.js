@@ -13,8 +13,7 @@ const strings = {
 	articleCategories: {
 		robot: 'Le robot',
 		coupe: 'La Coupe',
-		club: 'Le club',
-		sponsors: 'Les sponsors'
+		club: 'Le club'
 	},
 	footer: {
 		campusNantesDetails: {
