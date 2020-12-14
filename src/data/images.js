@@ -122,6 +122,12 @@ const images = {
 		scheme: baseURL + 'pavillon_ressort.svg',
 		model1: baseURL + 'pavillon1.svg',
 		model2: baseURL + 'pavillon2.svg',
+	},
+	table:{
+		map: baseURL + 'map.svg',
+		pieces: baseURL + 'map_pieces.svg',
+		drawings: baseURL + 'map_pieces_drawing.svg',
+		windsock: baseURL + 'windsock.svg',
 	}
 };
 
