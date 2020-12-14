@@ -11,7 +11,7 @@ import images from '../images';
 
 const article = {
 	title: 'Stratégie de l’ARC vis à vis de la Coupe de France de Robotique',
-	image: images.strategy.map_scheme,
+	image: images.strategy.map_blueprint,
 	author: 'Maxence Nesme',
 	preview:
 		"Après observation des match disputés cette année nous avons remarqué que la phase de détection et classement des bouées sur les bandes de couleurs des ports était une étape chronophage et souvent peu rentable pour les équipes avec peu d’expérience. C’est pourquoi notre stratégie de base consiste en la collecte des points ne nécessitant que très peu (voir aucune) de détection de couleurs et n’ayant que peu de chances (ibid) d’être contesté par l’adversaire.",
@@ -29,7 +29,7 @@ const article = {
 			<h2 id="strategyIntroduction">1. Rappels du système de comptage de points</h2>
             <p>L'aire de jeu:</p>
             <img src={images.strategy.map} alt="map" /><br/><br/>
-            <img src={images.strategy.map_scheme} alt="map-scheme" /><br/><br/>
+            <img src={images.strategy.map_blueprint} alt="map-blueprint" /><br/><br/>
             <p>On rappelle le nombre de point obtenus par mission accomplis:</p><br/>
             <h5><u>Manches à air:</u></h5><br/>
             <ul>

@@ -21,6 +21,7 @@ import lidar_article from './lidar';
 import strategy_article from './strategy';
 import windsock_article from './windsock';
 import makingTable_article from './makingTable';
+import enslavement_article from './enslavement';
 
 const articles = [
 	{
@@ -107,6 +108,11 @@ const articles = [
 		id: '17',
 		category: strings.articleCategories.robot,
 		...makingTable_article
+	},
+	{
+		id: '18',
+		category: strings.articleCategories.robot,
+		...enslavement_article
 	}
 ];
 

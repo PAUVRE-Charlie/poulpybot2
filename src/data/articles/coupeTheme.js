@@ -81,7 +81,7 @@ const article = {
             <img src={images.coupe_theme.validity_buoy} alt="validity-buoy" />
             <h5><u>En bref</u></h5><br/>
             <p>Le schéma suivant résume les informations sur les bouées (disposition et appartenance):</p>
-            <img src={images.coupe_theme.map_scheme} alt="map_scheme" />
+            <img src={images.coupe_theme.map_blueprint} alt="map_blueprint" />
         
             <h4 id="themeCoupeMission2">Mission 2: Relever les manches à air</h4><br/>
             <span>CHANGEMENT : introduction d’une marque (point rose sur la figure) doit être totalement recouverte par le manche à la fin du match pour valider l’action.</span><br/>

@@ -12,7 +12,7 @@ import images from '../images';
 
 const article = {
 	title: 'Dispositif pour hisser les pavillons',
-	image: images.windsock.scheme,
+	image: images.windsock.blueprint,
 	author: 'Alexis Hamel',
 	preview:
 		"L’objectif de ce dispositif est de hisser deux pavillons de surface supérieur à 30 cm2 chacun au-delà d’une hauteur de 35cm dans les 5 dernières secondes du match. Cette mission permet de rapporter 10 points lors de la coupe si elle est réussie.",
@@ -36,7 +36,7 @@ const article = {
                 
                 <h2 id="windsockPhysics">2. Considérations physiques</h2>
                 <p>Pour atteindre cet objectif, nous allons mettre en œuvre un dispositif qui s’apparente à une glissière qui coulisse dans son support. Cette glissière sera projetée en l’air grâce à un ressort et maintenue en l’air grâce à un aimant. Commençons par modéliser théoriquement notre glissière. On assimilera cette glissière par un point matériel dans un premier temps de masse m posée sur un support de masse m’ et on ne prendra pas en compte les frottements. Le schéma suivant illustre la situation de départ à gauche et la situation finale à droite. On prendra comme origine la position à l’équilibre du système.</p>
-                <br/><img src={images.windsock.scheme} style={{width:'40%', margin: '0 30%'}} alt="scheme" /><br/><br/>
+                <br/><img src={images.windsock.blueprint} style={{width:'40%', margin: '0 30%'}} alt="blueprint" /><br/><br/>
                 <br/><span>On appuie ensuite à <MathJax.Node inline formula={`t=0`} /> sur sur le plateau qui se déplace vers le bas d’une distance d et on le lâche sans vitesse initiale.</span>
                 <br/><br/><span>L’allongement algébrique <MathJax.Node inline formula={`𝚫z_{eq}`} /> du ressort lorsque l’ensemble est à l’équilibre est:</span>
                 <MathJax.Node formula={`𝚫z_{eq} = - \\frac{m+m'}{k}*g`}/>

@@ -22,7 +22,7 @@ const images = {
 		map: baseURL + 'table_schema.svg',
 		shuffle_buoy: baseURL + 'combinaisons_bouees.svg',
 		robot_positions: baseURL + 'positions_robot.svg',
-		map_scheme: baseURL + 'schema_table.svg',
+		map_blueprint: baseURL + 'schema_table.svg',
 		map_sweep: baseURL + 'table_balayage.svg',
 		map_windsock: baseURL + 'table_manches.svg',
 		map_upView: baseURL + 'table_vue_dessus.svg',
@@ -116,10 +116,10 @@ const images = {
 	},
 	strategy: {
 		map: baseURL + 'table_schema.svg',
-		map_scheme: baseURL + 'table_vue_dessus.svg',
+		map_blueprint: baseURL + 'table_vue_dessus.svg',
 	},
 	windsock:{
-		scheme: baseURL + 'pavillon_ressort.svg',
+		blueprint: baseURL + 'pavillon_ressort.svg',
 		model1: baseURL + 'pavillon1.svg',
 		model2: baseURL + 'pavillon2.svg',
 	},
@@ -128,6 +128,11 @@ const images = {
 		pieces: baseURL + 'map_pieces.svg',
 		drawings: baseURL + 'map_pieces_drawing.svg',
 		windsock: baseURL + 'windsock.svg',
+	},
+	enslavement: {
+		table1: baseURL + 'asservissement_table1.svg',
+		table2: baseURL + 'asservissement_table2.svg',
+		blueprint: baseURL + 'asservissement_schema.svg',
 	}
 };
 
