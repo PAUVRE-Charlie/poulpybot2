@@ -18,6 +18,7 @@ import detectionTags_article from './detectionTags';
 import detectionCouleurs_article from './detectionCouleurs';
 import equipment_article from './equipment';
 import lidar_article from './lidar';
+import strategy_article from './strategy';
 
 const articles = [
 	{
@@ -89,6 +90,11 @@ const articles = [
 		id: '14',
 		category: strings.articleCategories.robot,
 		...lidar_article
+	},
+	{
+		id: '15',
+		category: strings.articleCategories.robot,
+		...strategy_article
 	}
 ];
 

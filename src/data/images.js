@@ -35,12 +35,14 @@ const images = {
 		campus: baseURL + 'imt.svg',
 		mixImages: baseURL + 'imt2.svg',
 	},
-	detection:{
+	detection_ecueils:{
 		model: baseURL + 'detection_model.svg',
 		capteur: baseURL + 'detection_capteur.svg',
 		montage: baseURL + 'detection_montage.svg',
 		schema_montage: baseURL + 'detection_schema_montage.svg',
 		code: baseURL + 'detection_code.svg',
+		code2: baseURL + 'codeecueils1.svg',
+		code3: baseURL + 'codeecueils2.svg',
 	},
 	club_nantes:{
 		equipe: baseURL + 'club_nantes.svg',
@@ -111,6 +113,10 @@ const images = {
 		window: baseURL + 'lidar_fenetre.svg',
 		rplidar: baseURL + 'rplidar.svg',
 		sdk: baseURL + 'sdk.svg',
+	},
+	strategy: {
+		map: baseURL + 'table_schema.svg',
+		map_scheme: baseURL + 'table_vue_dessus.svg',
 	}
 };
 
