@@ -15,7 +15,7 @@ const article = {
 	image: images.simulation.simulation,
 	author: 'Aziz Sellami',
 	preview:
-		'La modélisation de notre Robot a différents objectifs. Tout d’abord elle a pour but d’aider à la réflexion sur l’agencement des différents composants du Robot. Ensuite, elle a pour but de prototyper des éléments du robots et des pièces qui pourront par la suite être à l’imprimante 3D.',
+		'Suite à l’impossibilité d’un prototypage physique dû au contexte sanitaire, la simulation du robot est apparue comme solution idéale pour pouvoir prototyper et tester les différentes solutions techniques pour le robot. De plus, la simulation a pour avantage de pouvoir tester aisément le robot sur différents scénarios et offre une grande flexibilité.',
 	body: (
 		<div className="article">
             <div className="contents">
