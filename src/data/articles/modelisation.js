@@ -50,7 +50,7 @@ const article = {
             </ul>
             <br/>
             <span>Intégration sur le site:</span><br/>
-            <iframe title="fusion-model" src="https://imtatlantique10.autodesk360.com/shares/public/SH56a43QTfd62c1cd968a8f3514029fc2801?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+            <iframe title="fusion-model" src="https://imtatlantique10.autodesk360.com/shares/public/SH56a43QTfd62c1cd968a8f3514029fc2801?mode=embed" allowFullScreen={true} webkitallowfullscreen="true" mozallowfullscreen="true"  frameBorder={0}></iframe>
         </div>
 	)
 };

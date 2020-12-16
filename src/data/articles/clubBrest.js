@@ -25,14 +25,14 @@ const article = {
 				<div>
                     {
                         team && Object.values(team.brest).map((person) => {
-                            return <Link to={"person" + person.id}>{person.firstname + " " + person.lastname}</Link>
+                            return <Link key={person.id + person.firstname} to={"person" + person.id}>{person.firstname + " " + person.lastname}</Link>
                         })
                     }
 				</div>
 			</div>
             {
                 team && Object.values(team.brest).map((person) => {
-                    return <div id={"person" + person.id} className="sideViewImage avatar" style={{flexDirection: person.id%2 === 0 ? 'row' : 'row-reverse'}}>
+                    return <div key={"person" + person.id} className="sideViewImage avatar" style={{flexDirection: person.id%2 === 0 ? 'row' : 'row-reverse'}}>
                             <div><img src={person.image} alt={"avatar"+person.id}></img></div>
                             <div><h2>{person.firstname + " " + person.lastname}</h2>
                             <p style={{color: colors.secondary}}>{person.nickname}</p>

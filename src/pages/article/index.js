@@ -1,5 +1,6 @@
 /* React imports */
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-scroll';
 
 /* Style imports */
 import './article.css';
@@ -58,6 +59,7 @@ export default function Article({ match }) {
 					<div className="articleBody" style={{ background: colors.white, color: colors.black }}>
 						{article.body}
 					</div>
+					<Link className="articleUpArrow" to="headerContainer"><img src={icons.arrowDown} alt="arrow-up"></img></Link>
 				</div>
 			)}
 		</ScrollToTop>

@@ -59,6 +59,22 @@
 	opacity: 0;
 }
 
+/* the arrow used to go back to the article page */
+.articleUpArrow{
+	margin-top: 1rem;
+	position: absolute;
+	place-self: center;
+	cursor: pointer;
+	left:50%;
+	transform: translateX(-50%);
+}
+
+/* the icon used as the back arrow */
+.articleUpArrow img{
+	width: 3em;
+	transform: rotate(180deg);
+}
+
 /* this class is used to animate the container when it appears on the screen */
 .fadeAndMoveFromBelow {
 	transform: translateY(0);
