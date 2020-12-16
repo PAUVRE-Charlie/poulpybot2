@@ -20,7 +20,7 @@ const article = {
         <MathJax.Provider>
             <div className="article">
                 <div className="contents">
-                    <img src={images.electronique} alt="backgroundTableOfContents" />
+                    <img src={images.windsock.windsock} alt="backgroundTableOfContents" />
                     <h1>Sommaire</h1>
                     <div>
                         <Link to="windsockObjective">Objectif</Link>

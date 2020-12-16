@@ -18,7 +18,7 @@ const article = {
 	body: (
 		<div className="article">
 			<div className="contents">
-				<img src={images.electronique} alt="backgroundTableOfContents" />
+				<img src={images.strategy.map_blueprint} alt="backgroundTableOfContents" />
 				<h1>Sommaire</h1>
 				<div>
 					<Link to="strategyIntroduction">Rappels du système de comptage de points</Link>

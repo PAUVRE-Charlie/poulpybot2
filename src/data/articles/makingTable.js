@@ -11,14 +11,14 @@ import images from '../images';
 
 const article = {
 	title: 'Réalisation de la table',
-	image: images.table.map,
+	image: images.table.pieces,
 	author: 'Aziz Sellami',
 	preview:
 		"Afin de pouvoir tester notre robot dans des conditions similaires à la Coupe de Robotique, il est nécessaire de recréer l’aire de jeu le plus fidèlement possible. C’est pourquoi nous avons tout d’abord récupéré l’ancienne table du club de robotique de Télécom Bretagne et nous avons modélisé les pièces manquantes pour les réaliser au Fablab de Brest.",
 	body: (
 		<div className="article">
 			<div className="contents">
-				<img src={images.electronique} alt="backgroundTableOfContents" />
+				<img src={images.table.pieces} alt="backgroundTableOfContents" />
 				<h1>Sommaire</h1>
 				<div>
 					<Link to="makingTableIntroduction">Introduction</Link>

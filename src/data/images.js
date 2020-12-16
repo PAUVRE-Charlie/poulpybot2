@@ -122,6 +122,7 @@ const images = {
 		blueprint: baseURL + 'pavillon_ressort.svg',
 		model1: baseURL + 'pavillon1.svg',
 		model2: baseURL + 'pavillon2.svg',
+		windsock: baseURL + 'windsock.svg'
 	},
 	table:{
 		map: baseURL + 'map.svg',
