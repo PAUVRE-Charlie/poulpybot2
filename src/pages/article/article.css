@@ -61,12 +61,12 @@
 
 /* the arrow used to go back to the article page */
 .articleUpArrow{
-	margin-top: 1rem;
-	position: absolute;
-	place-self: center;
+	position: fixed;
 	cursor: pointer;
 	left:50%;
+	bottom: 1rem;
 	transform: translateX(-50%);
+	animation: animationArrowUp infinite 5s;
 }
 
 /* the icon used as the back arrow */
@@ -89,5 +89,17 @@
 	/* the title, inside the articleContainer */
 	.articleTitle {
 		font-size: 2rem;
+	}
+}
+
+@keyframes animationArrowUp {
+	0% {
+		transform: translateX(-50%) translateY(0) scale(1);
+	}
+	25% {
+		transform: translateX(-50%) translateY(-10px) scale(0.95);
+	}
+	50% {
+		transform: translateX(-50%) translateY(0) scale(1);
 	}
 }
