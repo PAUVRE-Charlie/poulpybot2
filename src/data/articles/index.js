@@ -23,6 +23,7 @@ import windsock_article from './windsock';
 import makingTable_article from './makingTable';
 import enslavement_article from './enslavement';
 import actuator_article from './actuator';
+import dataProcessing_article from './dataProcessing';
 
 const articles = [
 	{
@@ -119,6 +120,11 @@ const articles = [
 		id: '19',
 		category: strings.articleCategories.robot,
 		...actuator_article
+	},
+	{
+		id: '20',
+		category: strings.articleCategories.robot,
+		...dataProcessing_article
 	}
 ];
 
